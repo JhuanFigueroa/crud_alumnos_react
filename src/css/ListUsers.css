@@ -1,0 +1,62 @@
+.userName{
+    text-align: center;
+    width: 300px;
+    color: blue;
+    background-color: bisque;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.5rem;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+    width: 30%;
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+}
+
+th,td{
+    text-align: center;
+    width: 150px;
+    padding: 1rem
+}
+
+.alert{
+    margin-top: 5rem;
+}
+
+.txt-alert{
+    color: black;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn-editar{
+    color: green;
+}
+.btn-eliminar{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.btn-eliminar:hover{
+    cursor: pointer;
+}
